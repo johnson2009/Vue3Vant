@@ -3,10 +3,9 @@
     <img alt="Vue logo" src="../assets/logo.png" />
     <HelloWorld msg="Welcome to Your Vue.js + TypeScript App" />
     <div>
-    <WorkList />
+      <WorkList />
+    </div>
   </div>
-  </div>
-  
 </template>
 
 <script lang="ts">
@@ -19,7 +18,7 @@ export default defineComponent({
   name: "Home",
   components: {
     HelloWorld,
-    WorkList
+    WorkList,
   },
 });
 </script>
