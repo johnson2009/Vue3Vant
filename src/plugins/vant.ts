@@ -16,6 +16,9 @@ import {
   Collapse,
   CollapseItem,
   List,
+  Calendar,
+  Tabbar,
+  TabbarItem
 } from "vant";
 // import 'vant/lib/index.less';
 
@@ -39,4 +42,7 @@ export function setupVantComponent(app: App<Element>): void {
   app.use(Collapse);
   app.use(CollapseItem);
   app.use(List);
+  app.use(Calendar);
+  app.use(Tabbar);
+  app.use(TabbarItem);
 }

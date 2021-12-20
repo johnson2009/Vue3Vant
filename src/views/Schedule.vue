@@ -1,11 +1,14 @@
 <template>
-<Header title="About" />
-  <div class="about">
-    <h1>This is an about page</h1>
-
+  <div class="home">
+    <Header title="我的日程" />
+    <div>
+    
   </div>
-  <Footer />
+  <h1>Schedule</h1>
+      <Footer />
+  </div>
 </template>
+
 <script setup lang="ts">
 import { defineComponent } from "vue";
 import WorkList from "@/components/WorkList.vue";
